@@ -1,0 +1,6 @@
+<a *ngIf="link" [href]="link" class="tile" [style.gridArea]="gridArea">
+  <img *ngIf="icon" [src]="icon" alt="tile icon">
+  <h3>{{ title }}</h3>
+  <p>{{ description }}</p>
+  <img *ngIf="image" [src]="image" alt="tile image">
+</a>
